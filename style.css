@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
-    /* overflow-x: hidden; */
     color: #454545;
     
 }
@@ -33,17 +32,19 @@ header {
     height: 100vh;
 }
 header nav {
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 header nav ul {
     display: flex;
     justify-content: end;
     /* padding: 30px; */
 }
+header nav ul li {
+    padding: 20px;
+}
 header nav ul li a{
     color: #fff;
     display: block;
-    padding: 20px;
     text-align: center;
     
 }
@@ -63,11 +64,12 @@ header h3 {
 .about {
     height: 100vh;
     background-color: #E2EEFB;
+    padding: 50px;
     
 }
 .about h3 {
     text-align: center;
-    margin: 30px;
+    /* margin: 30px; */
    
 }
 .about-content {
@@ -77,9 +79,10 @@ header h3 {
     
 }
 .growth img, .conversation img  {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     padding: 20px;
+    border: 1px solid #000;
     
   
 }
