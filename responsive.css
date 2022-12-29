@@ -1,0 +1,149 @@
+@media all and (min-width:768px) and (max-width:1200px){
+   
+    header h1 {
+        color: blueviolet;
+        font-size: 70px;
+    }
+    .about {
+        padding: 10px;
+    }
+    .about h2 {
+        font-size: 30px;
+    }
+    .growth img, .conversation img {
+        width: auto;
+        
+    }
+
+    .introduce {
+        padding: 10px;
+    }
+    .profile {
+        padding: 10px;
+        height: auto;
+    }
+    .profile h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .profile-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .skill {
+        height: auto;
+        padding: 10px;
+    }
+    .skill h2 {
+        font-size: 30px;
+    }
+    .skill-icon {
+        flex-wrap: wrap;
+    }
+    .skill-icon .txt {
+        font-size: 30px;
+    }
+    .portfolio h2 {
+        font-size: 30px;
+    }
+    .btn .prev {
+        position: absolute;
+        right: 100%;
+
+    }
+    .btn .next {
+        position: absolute;
+        left: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+    header h1 {
+        color: blue;
+        font-size: 40px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header nav {
+        display: none;
+    }
+    .about {
+        height: auto;
+    }
+    .about h2 {
+        font-size: 30px;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile {
+        height: auto;
+    }
+    .profile h2 {
+        font-size: 30px;
+    }
+    .profile-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-txt {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 20px;
+    }
+    .education-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .skill {
+        height: auto;
+    }
+    .skill h2 {
+        font-size: 30px;
+    }
+    .skill-icon {
+        flex-wrap: wrap;
+    }
+    .skill-icon .txt {
+        font-size: 30px;
+    }
+    .portfolio {
+        height: auto;
+    }
+    .portfolio h2 {
+        font-size: 30px;
+    }
+    .portfolio-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn .prev {
+        top: 20%;
+        right: 100%
+    }
+    .btn .next {
+        top: 20%;
+        left: 100%;
+    }
+    .contact p {
+        color: rgb(22, 14, 68)
+    }
+    .fa-user, .fa-phone, .fa-envelope {
+        color: #ffffff;
+    }
+
+
+}

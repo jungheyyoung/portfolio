@@ -48,7 +48,7 @@ header nav ul li a{
     text-align: center;
     
 }
-header nav ul li a:hover {
+header nav ul li:hover {
     background-color: rgb(5, 38, 71);
 }
 header h1 {
@@ -57,19 +57,27 @@ header h1 {
     font-size: 100px;
     padding: 100px; 
 }
-header h3 {
+header h2 {
     text-align: center;
     
 }
 .about {
     height: 100vh;
     background-color: #E2EEFB;
-    padding: 50px;
+    padding: 40px;
     
 }
-.about h3 {
+.about h2 {
     text-align: center;
-    /* margin: 30px; */
+    /* padding: 35px; */
+    /* margin-bottom: 10px; */
+    padding: 20px;
+    font-size: 40px;
+    color: #333D6F;
+}
+.introduce {
+    text-align: center;
+    padding: 30px;
    
 }
 .about-content {
@@ -81,17 +89,19 @@ header h3 {
 .growth img, .conversation img  {
     width: 250px;
     height: 250px;
-    padding: 20px;
-    border: 1px solid #000;
+    padding: 10px;
+    /* border: 1px solid #000; */
     
   
 }
 .growth, .conversation {
-    border: 1px solid #000;
+    width: 250px;
+    height: 350px;
     background-color: #fff;
 }
 .growth p, .conversation p {
-    padding: 30px;
+    padding: 0 30px;
+    font-size: 15px;
 }
 .fa-heart {
     color: red;
@@ -108,28 +118,37 @@ header h3 {
     float: right;
 }
 .fa-ellipsis {
-    margin-left: 100px;
+    margin-left: 50px;
     color: #787878;
 }
 
-
-.profile h4 {
+.profile {
+    height: 100vh;
+    padding: 40px;
+}
+.profile h2 {
     text-align: center;
     margin: 20px;
-    font-size: 30px;
+    font-size: 40px;
+    color: #333D6F;
 }
 .profile-content {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
     align-items: center;
-   
+    padding: 20px;
+    gap: 30px; 
+}
+.profile h5 {
+    padding: 20px 0;
 }
 .profile img, .study img {
     width: 150px;
     height: 150px;
-    padding: 20px;
+    padding: 10px;
+    /* border: 3px solid orange; */
+
+    /* border: 1px solid #000; */
     
     
 
@@ -137,33 +156,41 @@ header h3 {
 .work img {
    width: 300px;
    height: 300px;
+   /* border: 3px solid orange; */
    border: 3px solid orange;
+   border-radius: 20px;
 }
 .education-txt {
     display: flex;
+    /* border: 1px solid #000; */
+    gap: 20px;
    
 }
 .profile-txt {
     display: flex;
-    gap: 20px
+    gap: 20px;
+    /* border: 1px solid #000; */
+    /* padding: 20px; */
    
 }
-.profile-txt  {
-    /* padding: 20px; */
-    
-}
+
 .profile-education {
-    padding: 20px;
+    padding: 30x;
+}
+.profile-txt h5, .education-txt h5 {
+    font-size: 20px;
 }
 .skill {
     height: 100vh;
     background-color: #333D6F;
+    padding: 40px;
        
 }
-.skill h4 {
+.skill h2 {
     text-align: center;
     color: #fff;
     padding: 30px;
+    font-size: 40px;
 }
 .skill img {
     width: 100px;
@@ -171,6 +198,10 @@ header h3 {
 }
 .icon img {
     width: 110px;
+    height: 110px;
+}
+.css img {
+    width: 120px;
     height: 110px;
 }
 
@@ -181,39 +212,92 @@ header h3 {
     align-items: center;
     padding: 100px;
 }
-.skill div {
+.skill-icon .txt {
     text-align: center;
     color: #fff;
+    font-size: 40px;
+    padding: 0 10px
 }
 .portfolio {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
-    background-color: #EBF4FF;  
+    background-color: #EBF4FF; 
+    padding: 40px; 
 }
-.portfolio h4 {
+.portfolio h2 {
     text-align: center;
     padding: 30px;
+    font-size: 40px;
+    color: #333D6F;
 }
 .portfolio-content {
     display: flex;
     justify-content: center;
     gap: 50px;
     /* align-items: center; */
-    padding: 50px;
+    padding: 20px;
+    
 }
 .portfolio img {
     width: 300px;
     height: 300px;
+    
 }
 .portfolio span {
     border: 1px solid #000;
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;  
    
+}
+.portfolio span:hover {
+    background-color: #333D6F;
+    
+}
+.portfolio span a:hover {
+    color: #fff;
+}
+.portfolio-content  {
+    position: relative;
+}
+.btn img {
+    width: 20px;
+    height: 20px;
+    
+}
+.btn .prev {
+    position: absolute;
+    top: 50%;
+    right: 80%;   
+}
+.btn .next {
+    position: absolute;
+    top: 50%;
+    left: 80%;
 }
 footer {
     background-image: url(images/bg05.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
+    padding: 30px;
+}
+footer h2 {
+    color: #fff;
+    padding:50px;
+    text-align: center;
+}
+.contact span {
+    color: #fff;
+    text-align: center;
+}
+ .contact p {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.fa-user, .fa-phone, .fa-envelope {
+    color: #fff;
+    padding: 10px;
 }
