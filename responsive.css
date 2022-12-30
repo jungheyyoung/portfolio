@@ -64,10 +64,13 @@
     header h2 {
         font-size: 20px;
     }
-    header nav ul li{
+    header nav ul {
         display: none;
     }
-    
+   
+    .openNav {
+        display: block;
+    }
     
     .about {
         height: auto;

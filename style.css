@@ -9,7 +9,7 @@
     color: #454545; 
 }
 body {
-    position: relative;
+    /* position: relative; */
     overflow-x: hidden;
 
 }
@@ -70,6 +70,59 @@ header h1 {
 header h2 {
     text-align: center;
     
+}
+
+.openNav {
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    display: none;
+    float: right;
+    padding: 20px;
+
+}
+
+
+/* nav .menu li:hover .submenu {
+    height: 480px;
+} */
+
+.sidenav {
+    height: 100%;
+    /* width: 250px; */
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    top:0;
+    right: 0;
+    background-color: #fff;
+    transition: 2s;
+    transform: translate(100%);
+    padding: 80px;
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: #787878;
+    display: block;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+.sidenav a:hover {
+    color: plum;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 .about {
