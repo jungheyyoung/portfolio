@@ -89,7 +89,7 @@ header h2 {
 }
 .introduce {
     text-align: center;
-    padding: 30px;
+    padding: 8px;
    
 }
 .about-content {
@@ -231,6 +231,10 @@ header h2 {
     font-size: 40px;
     padding: 0 10px
 }
+
+.txt.counter::after {
+    content: '%';
+}
 .portfolio {
     /* width: 100vw; */
     height: 100vh;
@@ -264,6 +268,7 @@ header h2 {
     padding: 10px;
    
 }
+
 .portfolio-content button:hover {
     background-color: #333D6F;
     color: #fff;
@@ -319,3 +324,9 @@ footer h2 {
     color: #fff;
     padding: 10px;
 }
+
+
+
+
+
+

@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://kit.fontawesome.com/23702cff2c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+    <!-- <script src="js/jquery.counterup.min.js"></script> -->
 </head>
 
 <body>
@@ -16,7 +19,7 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">INTRO</a></li>
+                    <li class="on a" ><a href="#">INTRO</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#profile">PROFILE</a></li>
                     <li><a href="#skill">SKILL</a></li>
@@ -28,8 +31,8 @@
             <h2>web publisher Jung Hye Young</h2>
         </header>
 
-        <a name="about">
-            <section class="about">
+            <div class="content">
+            <section class="about cnt01" id="about">
                 <h2>ABOUT</h2>
                 <div class="about-content">
                     <div class="growth">
@@ -65,10 +68,10 @@
                 </div>
                 <div class="introduce"> <b>성장</b> 하는 신입 웹퍼블리셔 <b>정혜영</b> 입니다</div>
             </section>
-        </a>
+        
 
-        <a name="profile">
-            <section class="profile">
+        
+            <section class="profile cnt02" id="profile">
                 <h2>profile</h2>
                 <div class="profile-content">
                     <figure class="work"><img src="images/work.jpg" alt=""></figure>
@@ -103,42 +106,42 @@
                 </div>
 
             </section>
-        </a>
-        <a name="skill">
-            <section class="skill">
+       
+       
+            <section class="skill cnt03" id="skill">
                 <h2>Skill ability</h2>
                 <div class="skill-icon">
                     <div class="icon">
                         <img src="images/ps.png" alt="">
-                        <div class="txt number">70%</div>
+                        <div class="txt counter" data-count="70">0</div>
                     </div>
 
                     <div>
                         <img src="images/ai.png" alt="">
-                        <div class="txt number">60%</div>
+                        <div class="txt counter" data-count="60">0</div>
                     </div>
                     <div>
                         <img src="images/html.png" alt="">
-                        <div class="txt number">80%</div>
+                        <div class="txt counter" data-count="80">0</div>
                     </div>
                     <div class="icon css">
                         <img src="images/css.png" alt="">
-                        <div class="txt number">80%</div>
+                        <div class="txt counter" data-count="80">0</div>
                     </div>
                     <div class="icon">
                         <img src="images/js.png" alt="">
-                        <div class="txt number">60%</div>
+                        <div class="txt counter" data-count="60">0</div>
                     </div>
                     <div>
                         <img src="images/react.png" alt="">
-                        <div class="txt number">50%</div>
+                        <div class="txt counter" data-count="50">0</div>
                     </div>
 
                 </div>
             </section>
-        </a>
-        <a name="portfolio">
-            <section class="portfolio">
+    
+        
+            <section class="portfolio cnt04" id="portfolio">
 
                 <h2>portfolio</h2>
                 <div class="portfolio-content">
@@ -163,9 +166,9 @@
                     </div>
                 </div>
             </section>
-        </a>
-        <a name="contact">
-            <footer>
+       
+        
+            <footer class="cnt05" id="contact ">
                 <h2>끝까지 봐주셔서 감사합니다</h2>
                 <div class="contact">
 
@@ -176,7 +179,7 @@
                     </P>
                 </div>
             </footer>
-        </a>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
