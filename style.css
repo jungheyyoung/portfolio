@@ -6,8 +6,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
-    color: #454545;
-    
+    color: #454545; 
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+
 }
 
 ul {
@@ -32,13 +36,19 @@ header {
     height: 100vh;
 }
 header nav {
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #ffffff;
+    /* position: fixed; */
+    right: 0;
+    
+
 }
 header nav ul {
     display: flex;
     justify-content: end;
     /* padding: 30px; */
+    /* position: fixed; */
 }
+
 header nav ul li {
     padding: 20px;
 }
@@ -49,7 +59,7 @@ header nav ul li a{
     
 }
 header nav ul li:hover {
-    background-color: rgb(5, 38, 71);
+    background-color: rgba(0,0,0,0.5);
 }
 header h1 {
     color:#fff;
@@ -61,6 +71,8 @@ header h2 {
     text-align: center;
     
 }
+
+
 .about {
     height: 100vh;
     background-color: #E2EEFB;
@@ -125,6 +137,7 @@ header h2 {
 .profile {
     height: 100vh;
     padding: 40px;
+    /* background-color: #EBF4FF; */
 }
 .profile h2 {
     text-align: center;
@@ -157,7 +170,7 @@ header h2 {
    width: 300px;
    height: 300px;
    /* border: 3px solid orange; */
-   border: 3px solid orange;
+   /* border: 3px solid orange; */
    border-radius: 20px;
 }
 .education-txt {
@@ -243,18 +256,23 @@ header h2 {
     height: 300px;
     
 }
-.portfolio span {
-    border: 1px solid #000;
+.portfolio-txt button  {
+    /* border: 1px solid #000; */
     border-radius: 10px;
-    padding: 10px 20px;  
+    /* padding: 10px 20px;  */
+    background-color: #fff; 
+    padding: 10px;
    
 }
-.portfolio span:hover {
+.portfolio-content button:hover {
     background-color: #333D6F;
+    color: #fff;
+    
     
 }
-.portfolio span a:hover {
+.portfolio button a:hover {
     color: #fff;
+    display: block;
 }
 .portfolio-content  {
     position: relative;

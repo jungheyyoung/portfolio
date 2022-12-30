@@ -67,7 +67,7 @@
     header h2 {
         font-size: 20px;
     }
-    header nav {
+    header nav ul li{
         display: none;
     }
     .about {
@@ -97,7 +97,7 @@
     .profile-txt {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        
         align-items: center;
         gap: 20px;
     }
@@ -142,7 +142,7 @@
         color: rgb(22, 14, 68)
     }
     .fa-user, .fa-phone, .fa-envelope {
-        color: #ffffff;
+        color: rgb(26, 26, 172);
     }
 
 
