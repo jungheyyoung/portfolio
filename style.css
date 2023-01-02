@@ -142,7 +142,7 @@ header h2 {
 }
 .introduce {
     text-align: center;
-    padding: 8px;
+    /* padding: 10px; */
    
 }
 .about-content {
@@ -186,6 +186,7 @@ header h2 {
     margin-left: 50px;
     color: #787878;
 }
+
 
 .profile {
     height: 100vh;

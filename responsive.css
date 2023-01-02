@@ -1,7 +1,7 @@
 @media all and (min-width:768px) and (max-width:1200px){
    
     header h1 {
-        color: blueviolet;
+        /* color: blueviolet; */
         font-size: 70px;
     }
     .about {
@@ -58,7 +58,7 @@
 
 @media screen and (max-width:767px) {
     header h1 {
-        color: blue;
+        /* color: blue; */
         font-size: 40px;
     }
     header h2 {
