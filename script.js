@@ -25,7 +25,9 @@ $('.counter').each(function() {
   });
 
 
-
+  document.getElementById("mySidenav").addEventListener('mouseup', ()=>{
+    closeNav();
+  })
 
 
   
@@ -38,6 +40,7 @@ function openNav() {
   function closeNav() {
     
     document.getElementById("mySidenav").style.transform = `translateX(100%)`;
+    
   }
 
 
@@ -71,6 +74,5 @@ $(window).on("wheel", function(e){
 	$html.animate({scrollTop : posTop});
  
 });
-
 
  
